@@ -59,7 +59,7 @@ int main(){
 
     numFields = mysql_num_fields(mysqlResult);
 
-    printf("Number of rows=%u  Number of fields=%u \n",numRows,numFields);
+    printf("Number of rows=%u  Number of fields=%u \n", numRows, numFields);
   }else{
     printf("Result set is empty\n");
   }
